@@ -22,6 +22,7 @@ public class Person {
             } catch (ParseException e) {
                 lastException = e; // Store the last exception
                 System.out.println("Failed to parse with format: " + format);
+                System.out.println("devops");
             }
         }
 
